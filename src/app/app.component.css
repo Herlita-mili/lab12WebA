@@ -1,0 +1,20 @@
+
+  .nav {
+    display: flex;
+    background-color: rgb(11, 5, 81); /* Cambia el color de fondo según tus preferencias */
+    padding: 1rem;
+  }
+
+  .nav a {
+    color: white; /* Cambia el color del texto según tus preferencias */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 5px; /* Agrega bordes redondeados */
+    transition: background-color 0.3s ease; /* Agrega una transición suave para el cambio de color de fondo */
+  }
+
+  .nav a:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+  }
+
